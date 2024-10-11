@@ -2,7 +2,8 @@ package com.example.dev.exception;
 
 public enum ErrorCode {
     UNCATEGORIZED_EXCEPTION(9999,"Uncategorized Error"),
-    USER_EXISTED(1001,"User existed")
+    USER_EXISTED(1001,"User existed"),
+    USER_NOT_EXIST(1002,"User isnot existed")
     ;
     private int code;
     private String message;

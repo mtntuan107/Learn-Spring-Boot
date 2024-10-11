@@ -8,6 +8,7 @@ import com.example.dev.entity.User;
 import com.example.dev.service.UserService;
 import jakarta.validation.Valid;
 import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.springframework.web.bind.annotation.*;
